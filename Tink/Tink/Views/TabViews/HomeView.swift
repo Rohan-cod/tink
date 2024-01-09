@@ -252,7 +252,8 @@ struct IssueSelectionView: View {
                 VStack {
                     HStack {
                         Text("Select issues you are concerned about")
-                            .font(.system(size: 22))
+                            .font(.system(size: 18))
+                            .multilineTextAlignment(.leading)
                             .fontWeight(.bold)
                             .foregroundStyle(.black)
                             .padding([.top, .leading], 40)
